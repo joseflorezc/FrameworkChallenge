@@ -7,6 +7,8 @@ import static io.restassured.RestAssured.given;
 
 public class Test1 {
 
+    private static Logger LOGGER = Logger.getLogger(SampleTest.class);
+
     @Test
     public void test1(){
 
