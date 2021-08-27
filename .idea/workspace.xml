@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="510166b5-d69c-4ed8-a948-203116611145" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/FachadaURL/FachadaURL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FachadaURL/URL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FachadaURL.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1630089513179</updated>
       <workItem from="1630089514859" duration="4700000" />
-      <workItem from="1630102517791" duration="5827000" />
+      <workItem from="1630102517791" duration="6022000" />
     </task>
     <servers />
   </component>

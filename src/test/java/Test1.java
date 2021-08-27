@@ -1,5 +1,6 @@
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -7,7 +8,7 @@ import static io.restassured.RestAssured.given;
 
 public class Test1 {
 
-    private static Logger LOGGER = Logger.getLogger(SampleTest.class);
+    private static Logger LOGGER = Logger.getLogger(Test1.class);
 
     @Test
     public void test1(){
