@@ -24,7 +24,18 @@ public class TestingGet {
         given().when().get(url).then().statusCode(200);
         LOGGER.info("Termino de correr el test getAlternativeTitles");
     }
-    
+
+    @Test
+    public void getCreditsMovie(){
+        FachadaURL fachadaURL = new FachadaURL("https://api.themoviedb.org/3", "","movie","619297-sweet-girl","credits","2e172e18c00b19621224226c2fff60f9");
+
+        LOGGER.error("Empezo a correr el test getAlternativeTitles");
+        String url = fachadaURL.construirURLFach();
+
+        given().when().get(url).then().statusCode(200);
+        LOGGER.info("Termino de correr el test getAlternativeTitles");
+    }
+
     @Test
     public void getCreditsTV(){
         FachadaURL fachadaURL = new FachadaURL("https://api.themoviedb.org/3", "","tv","91363-what-if","credits","2e172e18c00b19621224226c2fff60f9");
@@ -46,6 +57,18 @@ public class TestingGet {
         given().when().get(url).then().statusCode(200);
         LOGGER.info("Termino de correr el test getEpisodeGroupsTV");
     }
+
+    @Test
+    public void getPeopleDetail(){
+        FachadaURL fachadaURL = new FachadaURL("https://api.themoviedb.org/3", "","person","169337-katherine-lanasa","","2e172e18c00b19621224226c2fff60f9");
+
+        LOGGER.info("Empezo a correr el test getPeopleDetail");
+        String url = fachadaURL.construirURLFach();
+
+        given().when().get(url).then().statusCode(200);
+        LOGGER.info("Termino de correr el test getPeopleDetail");
+    }
+
 
 
 }
