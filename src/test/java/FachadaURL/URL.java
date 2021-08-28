@@ -64,13 +64,13 @@ public class URL {
         url = ""+ dominio;
         url = url + "/"+category;
 
-        if(token != ""){
+        if(!token.equals("") ){
             url = url +"/"+token;
         }
-        if(id != ""){
+        if(!id.equals("")){
             url = url + "/" + id;
         }
-        if(subCategory != ""){
+        if(!subCategory.equals("")){
             url = url + "/" + subCategory;
         }
 

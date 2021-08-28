@@ -16,6 +16,6 @@ public class FachadaURL {
 
     }
 
-    public String construirURLFach() { return construirURLFach();}
+    public String construirURLFach() { return url.construirURL();}
 
 }

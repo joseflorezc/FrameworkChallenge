@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-27T17:16:04 COT" name="Test1" finished-at="2021-08-27T17:16:08 COT" duration-ms="4010">
+  <suite started-at="2021-08-27T19:30:57 COT" name="TestingGet" finished-at="2021-08-27T19:31:00 COT" duration-ms="2593">
     <groups>
     </groups>
-    <test started-at="2021-08-27T17:16:04 COT" name="Command line test" finished-at="2021-08-27T17:16:08 COT" duration-ms="4010">
-      <class name="Test1">
-        <test-method signature="test1()[pri:0, instance:Test1@2e3fc542]" started-at="2021-08-27T17:16:04 COT" name="test1" finished-at="2021-08-27T17:16:07 COT" duration-ms="3416" status="PASS">
+    <test started-at="2021-08-27T19:30:57 COT" name="Command line test" finished-at="2021-08-27T19:31:00 COT" duration-ms="2593">
+      <class name="TestingGet">
+        <test-method signature="getAlternativeTitles()[pri:0, instance:TestingGet@6a8658ff]" started-at="2021-08-27T19:30:57 COT" name="getAlternativeTitles" finished-at="2021-08-27T19:31:00 COT" duration-ms="2286" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:0, instance:Test1@2e3fc542]" started-at="2021-08-27T17:16:07 COT" name="test2" finished-at="2021-08-27T17:16:08 COT" duration-ms="548" status="PASS">
+        </test-method> <!-- getAlternativeTitles -->
+        <test-method signature="getCreditsTV()[pri:0, instance:TestingGet@6a8658ff]" started-at="2021-08-27T19:31:00 COT" name="getCreditsTV" finished-at="2021-08-27T19:31:00 COT" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- Test1 -->
+        </test-method> <!-- getCreditsTV -->
+        <test-method signature="getEpisodeGroupsTV()[pri:0, instance:TestingGet@6a8658ff]" started-at="2021-08-27T19:31:00 COT" name="getEpisodeGroupsTV" finished-at="2021-08-27T19:31:00 COT" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEpisodeGroupsTV -->
+      </class> <!-- TestingGet -->
     </test> <!-- Command line test -->
-  </suite> <!-- Test1 -->
+  </suite> <!-- TestingGet -->
 </testng-results>
